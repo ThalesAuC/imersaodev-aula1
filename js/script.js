@@ -5,8 +5,8 @@ function calcular(){
   var n4 = document.getElementById("n4").value;
   var result = (parseFloat(n1) + parseFloat(n2) + parseFloat(n3) + parseFloat(n4))/4;
   var resultFixed = result.toFixed(1);
-  console.log("resultado da operação " + result)
-  console.log("resultado fixado " + resultFixed)
+  console.log("resultado da operação: " + result)
+  console.log("resultado fixado: " + resultFixed)
   document.getElementById("resultado").innerHTML = resultFixed;
   return result
 }
